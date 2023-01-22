@@ -1,0 +1,88 @@
+/* Write your CSS here */
+
+@media (max-width: 768px) {
+  .container-one {
+    height: 100vh;
+    padding: 20px;
+    background-color: #ffd569;
+  }
+  .container-two {
+    height: 90vh;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    width: 95%;
+  }
+  .span {
+    color: #ffd569;
+  }
+  .image {
+    height: 50%;
+    width: 45%;
+    align-self: center;
+    padding-bottom: 35px;
+  }
+  .button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px;
+    border: 2px #007bff;
+    border-radius: 15px;
+    width: 125px;
+    align-self: center;
+    margin-left: 15px;
+  }
+
+  .fruits-container {
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-one {
+    height: 100vh;
+    padding: 20px;
+    background-color: #ffd569;
+  }
+  .container-two {
+    height: 90vh;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    width: 95%;
+  }
+  .span {
+    color: #ffd569;
+  }
+  .image {
+    height: 50%;
+    width: 45%;
+    align-self: center;
+    padding-bottom: 35px;
+  }
+  .button {
+    cursor: pointer;
+    font-family: 'Roboto';
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px;
+    border: 2px #007bff;
+    border-radius: 15px;
+    width: 125px;
+    align-self: center;
+    margin-left: 15px;
+  }
+  .fruits-container {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+  }
+  .new-con {
+    display: flex;
+    justify-content: space-around;
+  }
+}
